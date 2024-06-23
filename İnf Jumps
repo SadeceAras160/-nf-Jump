@@ -1,0 +1,148 @@
+-- Here Your Toggle For Kavo Ui
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Aras Hub V 1.1", "LightTheme")
+
+
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "ScreenGui"
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+-- MAIN
+local Main = Window:NewTab("MAIN")
+local MainSection = Main:NewSection("Main")
+
+
+MainSection:NewButton("İnf Yeld", "command", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/DarkNetworks/Infinite-Yield/main/latest.lua'))()
+end)
+
+MainSection:NewButton("https://discord.gg/qphmgkxJwK", "Discord", function()
+    loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet())()))()))()))()))()))()
+end)    
+
+MainSection:NewToggle("Super-Human", "go fast and jump higt", function(state)
+    if state then
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 120
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 120
+     else
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+    end
+end)
+
+
+MainSection:NewButton("Updating", "FE Admin Commands", function()
+    loadstring(game:HttpGet(('loadstring(game:HttpGet("updating"))()'),true))()
+end)
+
+-- Da hood sccript
+local Main = Window:NewTab("Da hood sccript")
+local MainSection = Main:NewSection("Da hood script")
+
+MainSection:NewButton("Azure Modded", "command", function()
+    loadstring(game:HttpGet(loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()))()
+end)
+
+-- Universial Script
+local Main = Window:NewTab("Universial Script")
+local MainSection = Main:NewSection("Universial Script")
+
+MainSection:NewButton("Harked Rebörn V2", "Harked Rebörn V2", function()
+    loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/Harkedv2-script/main/Leaked-v2hardked"))()))()))()))()
+end)
+
+MainSection:NewButton("Omen Hub", "command", function()
+    loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet("https://raw.githubusercontent.com/mezzopera/Omen-Hub/main/omen_hub.lua"))()))()))()
+end)
+
+MainSection:NewButton("Fly Gui V3", "Fly Gui V3", function()
+    loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()))()))()))()
+end)
+
+
+MainSection:NewButton("Troll Hub", "Troll Hub", function()
+    loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/FE%20Trolling%20GUI.luau"))()))()))()))()
+end)
+
+MainSection:NewButton("Genesis Universial V1", "command", function()
+    loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet("https://raw.githubusercontent.com/mezzopera/Omen-Hub/main/omen_hub.lua"))()))()))()
+end)
+
+MainSection:NewButton("Sky Hub", "command", function()
+    loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/SkyHub.txt"))()))()))()))()
+end)
+
+
+-- Popit Treading 
+local Main = Window:NewTab("Popit Treading")
+local MainSection = Main:NewSection("Popit Treading")
+
+MainSection:NewButton("Popit Treading", "Popit Treading", function()
+    loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet("https://raw.githubusercontent.com/iShield2005/scripts/master/shieldhubloader2"))()))()))()))()
+end)
+
+local Main = Window:NewTab("Untiled Tag Game")
+local MainSection = Main:NewSection("Untiled Tag Game")
+
+MainSection:NewButton("Untiled Tag Game ", "Untiled Tag Game", function()
+    loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet("https://raw.githubusercontent.com/Zer0ids/Qwerty/main/UntitledTag/NewScript.lua"))()))()))()))()))()
+end)
+-- Blad BALL SCRİPT
+local Main = Window:NewTab("Blade Ball")
+local MainSection = Main:NewSection("Blade Ball")
+
+MainSection:NewButton("Blade Ball ", "Blade Ball", function()
+    loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bc54a02ef03b7586aa05ab425f722312.lua"))()))()))()))()))()))()
+end)
+
+-- Murder Vs Sherif Script
+local Main = Window:NewTab("Murde Vs sherif")
+local MainSection = Main:NewSection("Murder Vs sherif")
+
+MainSection:NewButton("Soon", "Murder Vs sherif", function()
+    loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet("Soon"))()))()))()))()))()))()))()
+end)
+
+local Main = Window:NewTab("Blox Fruit")
+local MainSection = Main:NewSection("Blox Fruit")
+
+MainSection:NewButton("Blox Fruit Min Hub", "Blox Fruit Min Hub", function()
+    loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/MinGamingV4.lua")()))()))()))()))()))()))()))()
+end)
+
+local Main = Window:NewTab("Starving Artists ")
+local MainSection = Main:NewSection("Starving Artists")
+
+MainSection:NewButton("Starving Artists", "Key usernaxo", function()
+    loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet("https://github.com/usernaxo/RobloxScripts/raw/main/StarvingArtists/DrawingScript.lua", true))()))()))()))()))()))()))()))()
+end)
+
+local Main = Window:NewTab("Steal Time ")
+local MainSection = Main:NewSection("Steal Time ")
+
+MainSection:NewButton("Steal Time", "Steal Time", function()
+    loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet(loadstring(game:HttpGet("https://raw.githubusercontent.com/Brew-Softworks/Cooklet/main/Cooklet.lua"))()))()))()))()))()))()
+end)
+
+
+
+local Toggle = Instance.new("TextButton")
+Toggle.Name = "Toggle"
+Toggle.Parent = ScreenGui
+Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Toggle.Position = UDim2.new(0, 0, 0.454706937, 0)
+Toggle.Size = UDim2.new(0, 90, 0, 38)
+Toggle.Font = Enum.Font.SourceSans
+Toggle.Text = "Aras Hub "
+Toggle.TextColor3 = Color3.fromRGB(248, 248, 248)
+Toggle.TextSize = 28.000
+Toggle.Draggable = true
+Toggle.MouseButton1Click:connect(function()
+    Library:ToggleUI()
+end)
+
+local Corner = Instance.new("UICorner")
+Corner.Name = "Corner"
+Corner.Parent = Toggle
